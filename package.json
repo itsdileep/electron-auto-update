@@ -1,6 +1,6 @@
 {
   "name": "auto-update-electron",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Auto update the electron application",
   "main": "main.js",
   "scripts": {
@@ -10,11 +10,11 @@
   },
   "build": {
     "publish": [
-       {
-          "provider": "github",
-          "owner": "itsdileep",
-          "repo": "electron-auto-update"
-       }
+      {
+        "provider": "github",
+        "owner": "itsdileep",
+        "repo": "electron-auto-update"
+      }
     ]
   },
   "author": "Dileep",
