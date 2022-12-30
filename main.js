@@ -3,7 +3,7 @@ const path = require('path')
 const log = require('electron-log');
 const {autoUpdater} = require("electron-updater");
 
-log.transports.file.resolvePath = () => path.join('C:\Kramer-Control\Electron\auto-update-electron', '/logs/main.log');
+log.transports.file.resolvePath = () => path.join(__dirname, '/logs/main.log');
 log.log("Application Version = " + app.getVersion());
 log.info('Hello, log');
 log.warn('Some problem appears');
